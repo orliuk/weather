@@ -1,0 +1,101 @@
+body {
+  background-color: #e9ecef;
+  padding-left: 70px;
+}
+.change-city {
+  background-color: #f4f4f8;
+  margin: 30px 1px 30px 400px;
+  padding: 4px 222px 4px 6px;
+  font-size: 20px;
+  color: #adb5bd;
+  border: none;
+  box-shadow: 7px 5px 5px #adb5bd;
+}
+.search-button {
+  background-color: #f4f4f8;
+  margin: 30px 0 30px -5px;
+  padding: 0 15px 2px 15px;
+  font-size: 24px;
+  color: #8894a3;
+  border: none;
+  box-shadow: 5px 5px 5px #adb5bd;
+}
+.search-button:hover {
+  color: #b2d2ec;
+}
+#current-button {
+  background-color: #f4f4f8;
+  margin: 30px 0 30px 0px;
+  padding: 0 15px 2px 15px;
+  font-size: 24px;
+  color: #8894a3;
+  border: none;
+  box-shadow: 5px 5px 5px #adb5bd;
+}
+#current-button:hover {
+  color: #b2d2ec;
+}
+.today-container {
+  text-align: center;
+  background-color: #fff4b2;
+  margin: 20px 180px 20px 8px;
+  padding: 30px 20px;
+  box-shadow: 3px 3px 6px #adb5bd;
+  font-family: "Roboto", sans-serif;
+  position: absolutely;
+}
+.city {
+  font-size: 48px;
+}
+.day-today {
+  margin: 30px auto;
+  font-size: 22px;
+  color: #6c757d;
+  font-weight: 500;
+}
+.temp-today {
+  font-size: 28px;
+  font-weight: 500;
+}
+.indicators {
+  display: block;
+  color: #6798c0;
+  background-color: #f8f9fa;
+  margin: 70px 50px 60px 0;
+  padding: 40px 40px 40px 50px;
+  font-size: 20px;
+  box-shadow: 2px 3px 6px #6798c0;
+  font-family: "Roboto", sans-serif;
+  position: absolutely;
+}
+.days-of-the-week {
+  margin: 30px 30px 30px 80px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6c757d;
+  font-family: "Roboto Mono", monospace;
+  position: fixed;
+}
+.temp-of-the-week {
+  text-align: center;
+  background-color: rgb(178, 210, 236);
+  font-size: 22px;
+  border-radius: 70%;
+  padding: 70px 30px;
+  margin: 80px 20px 80px 10px;
+  width: 180px;
+  height: 180px;
+  font-weight: 500;
+  box-shadow: 3px 3px 6px #6798c0;
+  position: fixed;
+}
+.emoji {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #212529;
+}
+a:hover {
+  color: #6798c0;
+}
