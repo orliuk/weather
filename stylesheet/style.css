@@ -56,6 +56,7 @@ body {
 .temp-today {
   font-size: 28px;
   font-weight: 500;
+  margin-bottom: 0;
 }
 .indicators {
   display: block;
@@ -104,4 +105,8 @@ a:hover {
   position: relative;
   bottom: -280px;
   font-size: 20px;
+}
+#description {
+  font-size: 20px;
+  color: #212529;
 }
