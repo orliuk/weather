@@ -70,12 +70,12 @@ body {
   position: absolutely;
 }
 .days-of-the-week {
-  margin: 30px 30px 30px 80px;
+  margin: 30px 30px 30px 70px;
   font-size: 20px;
   font-weight: 500;
   color: #6c757d;
   font-family: "Roboto Mono", monospace;
-  position: fixed;
+  position: absolutely;
 }
 .temp-of-the-week {
   text-align: center;
@@ -83,12 +83,11 @@ body {
   font-size: 22px;
   border-radius: 70%;
   padding: 70px 30px;
-  margin: 80px 20px 80px 10px;
   width: 180px;
   height: 180px;
   font-weight: 500;
   box-shadow: 3px 3px 6px #6798c0;
-  position: fixed;
+  position: absolutely;
 }
 .emoji {
   font-size: 30px;
@@ -103,7 +102,7 @@ a:hover {
 #git {
   text-align: center;
   position: relative;
-  bottom: -280px;
+  bottom: -20px;
   font-size: 20px;
 }
 #description {
